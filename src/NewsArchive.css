@@ -1,0 +1,70 @@
+.archive-container {
+    background-color: rgba(247, 247, 247, 0.9);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.archive-title {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #413110;
+}
+
+.archive-year {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.archive-month,
+.archive-date {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.archive-month:hover,
+.archive-date:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.back-button {
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    background-color: #413110;
+    border: none;
+}
+
+.back-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.newspaper-button {
+    color: #fff;
+    background-color: #413110;
+    border: none;
+    margin-top: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.newspaper-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dialog-content-text {
+    color: #413110;
+}
